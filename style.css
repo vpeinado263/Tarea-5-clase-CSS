@@ -1,0 +1,141 @@
+body {
+    margin: 0; 
+    font-family: 'Gothic A1', sans-serif; 
+    height: 100vh; 
+}
+
+.card-wrapper {
+    display: flex; 
+    height: 100vh; 
+}
+
+.card-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.gothic-section {
+    background-color: #2d2d2d; 
+    color: #f0f0f0; 
+}
+
+.presentable-section {
+    background-color: #f8f9fa;
+    color: #333; 
+  
+}
+
+.card {
+    height: 600px; /* Altura de la tarjeta */
+    width: 100%; /* Anchura de la tarjeta */
+    border-radius: 15px; /* Bordes redondeados */
+    position: relative; /* Necesario para la superposición */
+    overflow: hidden; /* Evitar desbordamiento */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); /* Sombra intensa */
+    transition: transform 0.3s; /* Transiciones */
+    height: 600px;
+    width: 400px;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Elevar la tarjeta al pasar el mouse */
+}
+
+.gothic-card {
+    background-color: transparent; 
+}
+
+.card-image {
+    height: 379px; /* Altura de la imagen */
+    width: 100%; /* Ancho completo */
+    object-fit: cover; /* Ajustar imagen */
+    border-top-left-radius: 15px; /* Bordes redondeados en la parte superior */
+    border-top-right-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Sombra interna */
+}
+
+.overlay {
+    position: absolute; /* Superposición absoluta */
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(7, 7, 7, 0.7), rgba(0, 0, 0, 0.5)); /* Degradado oscuro */
+    opacity: 0.8; /* Opacidad */
+    transition: opacity 0.3s; /* Transición de opacidad */
+}
+
+.gothic-card:hover .overlay {
+    opacity: 0.2; /* Cambia la opacidad en hover */
+}
+
+.card-data {
+    list-style: none;
+    padding: 16px; /* Espaciado interno */
+    color: #eaeaea; /* Color de texto de la lista */
+    position: relative; /* Posicionamiento relativo para sombras */
+    z-index: 2; /* Asegurar que el texto esté por encima de la superposición */
+}
+
+.card-data-titles {
+    color: #ffcc00; /* Color dorado para los títulos en la tarjeta gótica */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Sombra para el texto */
+}
+
+.card-data-alias {
+    color: #ff4500; /* Color naranja vibrante para el alias en la tarjeta gótica */
+}
+
+.card-button {
+    background-color: #5c2e2e; /* Rojo oscuro */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px; /* Espaciado del botón */
+    border: 2px solid #444; /* Borde oscuro */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transición de botón */
+}
+
+.card-button:hover {
+    background-color: #ffcc00; /* Color dorado al pasar el mouse */
+    color: #5c2e2e; /* Texto oscuro al hover */
+}
+
+
+.overlay1 {
+    position: absolute; /* Superposición absoluta */
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(206, 192, 192, 0.7), rgba(185, 169, 169, 0.5)); /* Degradado oscuro */
+    opacity: 0.8; /* Opacidad */
+    transition: opacity 0.3s; /* Transición de opacidad */
+}
+
+.presentable-card:hover .overlay1 {
+    opacity: 0.2; /* Cambia la opacidad en hover */
+}
+
+
+.presentable-card {
+    background-color: #fff; /* Fondo blanco para la tarjeta presentable */
+    color: #333; /* Color de texto oscuro */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+    height: 600px;
+}
+
+.presentable-card .card-data-titles {
+    color: #007bff; /* Azul para los títulos en la tarjeta presentable */
+}
+
+.presentable-card .card-data-alias {
+    color: #555; /* Gris oscuro para el alias en la tarjeta presentable */
+}
+
+figcaption ul li {
+    margin-bottom: 10px; 
+}
