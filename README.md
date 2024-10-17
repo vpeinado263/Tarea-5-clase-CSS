@@ -31,3 +31,7 @@ A lo largo de este proyecto, enfrenté varios desafíos técnicos que me ayudaro
 1. **Posicionamiento y diseño de tarjetas**: Uno de los principales desafíos fue posicionar ambas tarjetas en la misma pantalla sin necesidad de hacer scroll y asegurarme de que quedaran separadas visualmente por un gradiente, simulando la "línea divisoria" entre luz y oscuridad.
    
 2. **Fusión de estilos góticos y modernos**: Lograr una estética gótica para el Backend con sombras profundas y colores oscuros, mientras que mantenía el Frontend con un diseño moderno y accesible. Utilicé gradientes y sombras para diferenciarlas visualmente.
+
+3. Flexbox: Utilizado para alinear las tarjetas horizontalmente en la pantalla, asegurando que se adapten de manera responsiva y equitativa sin la necesidad de hacer scroll. Se empleó para distribuir el espacio entre las tarjetas y mantener una estructura flexible.
+ 
+4.Box Model: Implementado para controlar el tamaño, márgenes, rellenos y bordes de las tarjetas. El uso del Box Model permitió definir el espaciado adecuado alrededor de las tarjetas, aplicar sombras y definir el área visible, garantizando que cada tarjeta tenga un aspecto limpio y bien estructurado.
