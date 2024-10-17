@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+/**********************/
 body {
     margin: 0; 
     font-family: 'Gothic A1', sans-serif; 
     height: 100vh; 
+    font-size: 0.80em;
 }
 
 .card-wrapper {
     display: flex; 
     height: 100vh; 
+  
 }
 
 .card-container {
@@ -24,23 +28,24 @@ body {
 .presentable-section {
     background-color: #f8f9fa;
     color: #333; 
-  
+    font-family: "Eagle Lake", serif;
+    font-size: 0.8em;
 }
 
 .card {
-    height: 600px; /* Altura de la tarjeta */
-    width: 100%; /* Anchura de la tarjeta */
-    border-radius: 15px; /* Bordes redondeados */
-    position: relative; /* Necesario para la superposición */
-    overflow: hidden; /* Evitar desbordamiento */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); /* Sombra intensa */
-    transition: transform 0.3s; /* Transiciones */
+    height: 600px; 
+    width: 100%; 
+    border-radius: 15px; 
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.9); 
+    transition: transform 0.3s; 
     height: 600px;
     width: 400px;
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Elevar la tarjeta al pasar el mouse */
+    transform: translateY(-10px); 
 }
 
 .gothic-card {
@@ -48,92 +53,91 @@ body {
 }
 
 .card-image {
-    height: 379px; /* Altura de la imagen */
-    width: 100%; /* Ancho completo */
-    object-fit: cover; /* Ajustar imagen */
-    border-top-left-radius: 15px; /* Bordes redondeados en la parte superior */
+    height: 379px; 
+    width: 100%; 
+    object-fit: cover;
+    border-top-left-radius: 15px; 
     border-top-right-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Sombra interna */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); 
 }
 
 .overlay {
-    position: absolute; /* Superposición absoluta */
+    position: absolute; 
     top: 0; 
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(135deg, rgba(7, 7, 7, 0.7), rgba(0, 0, 0, 0.5)); /* Degradado oscuro */
-    opacity: 0.8; /* Opacidad */
-    transition: opacity 0.3s; /* Transición de opacidad */
+    background: linear-gradient(135deg, rgba(7, 7, 7, 0.7), rgba(0, 0, 0, 0.5));
+    opacity: 0.8;
+    transition: opacity 0.3s; 
 }
 
 .gothic-card:hover .overlay {
-    opacity: 0.2; /* Cambia la opacidad en hover */
+    opacity: 0.2; 
 }
 
 .card-data {
     list-style: none;
-    padding: 16px; /* Espaciado interno */
-    color: #eaeaea; /* Color de texto de la lista */
-    position: relative; /* Posicionamiento relativo para sombras */
-    z-index: 2; /* Asegurar que el texto esté por encima de la superposición */
+    padding: 16px; 
+    color: #855353; 
+    position: relative; 
+    z-index: 2; 
 }
 
 .card-data-titles {
-    color: #ffcc00; /* Color dorado para los títulos en la tarjeta gótica */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Sombra para el texto */
+    color: #3cc230; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
 }
 
 .card-data-alias {
-    color: #ff4500; /* Color naranja vibrante para el alias en la tarjeta gótica */
+    color: #aab60c; 
 }
 
 .card-button {
-    background-color: #5c2e2e; /* Rojo oscuro */
+    background-color: #5c2e2e; 
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    padding: 10px 15px; /* Espaciado del botón */
-    border: 2px solid #444; /* Borde oscuro */
+    padding: 10px 15px; 
+    border: 2px solid #444; 
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Transición de botón */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .card-button:hover {
-    background-color: #ffcc00; /* Color dorado al pasar el mouse */
-    color: #5c2e2e; /* Texto oscuro al hover */
+    background-color: #ffcc00; 
+    color: #5c2e2e; 
 }
 
 
 .overlay1 {
-    position: absolute; /* Superposición absoluta */
+    position: absolute; 
     top: 0; 
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(135deg, rgba(206, 192, 192, 0.7), rgba(185, 169, 169, 0.5)); /* Degradado oscuro */
-    opacity: 0.8; /* Opacidad */
-    transition: opacity 0.3s; /* Transición de opacidad */
+    background: linear-gradient(135deg, rgba(206, 192, 192, 0.7), rgba(185, 169, 169, 0.5)); 
+    opacity: 0.8; 
+    transition: opacity 0.3s; 
 }
 
 .presentable-card:hover .overlay1 {
-    opacity: 0.2; /* Cambia la opacidad en hover */
+    opacity: 0.2; 
 }
 
-
 .presentable-card {
-    background-color: #fff; /* Fondo blanco para la tarjeta presentable */
-    color: #333; /* Color de texto oscuro */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+    background-color: #fff; 
+    color: #333; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
     height: 600px;
 }
 
 .presentable-card .card-data-titles {
-    color: #007bff; /* Azul para los títulos en la tarjeta presentable */
+    color: #007bff; 
 }
 
 .presentable-card .card-data-alias {
-    color: #555; /* Gris oscuro para el alias en la tarjeta presentable */
+    color: #555; 
 }
 
 figcaption ul li {
