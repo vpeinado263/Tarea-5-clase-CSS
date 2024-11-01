@@ -36,4 +36,4 @@ A lo largo de este proyecto, enfrenté varios desafíos técnicos que me ayudaro
  
 4.Box Model: Implementado para controlar el tamaño, márgenes, rellenos y bordes de las tarjetas. El uso del Box Model permitió definir el espaciado adecuado alrededor de las tarjetas, aplicar sombras y definir el área visible, garantizando que cada tarjeta tenga un aspecto limpio y bien estructurado.
 
-Puedes ver el proyecto en vivo aquí: [Tarea 4 - Clase CSS](https://tarea-5-clase-css.vercel.app/)
+Puedes ver el proyecto en vivo aquí: [Tarea 5 - Clase CSS](https://tarea-5-clase-css.vercel.app/)
