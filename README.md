@@ -1,4 +1,4 @@
-# Tarea-5ta-Tarea-CSS-3
+# Tarea-5ta-Tarea-CSS
 
 ## Descripción
 
