@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es parte de la **5ta Tarea de CSS** y tiene como objetivo aplicar los conocimientos adquiridos sobre **CSS** y la estructuración de elementos HTML para crear un diseño estilizado, que separa dos tarjetas visualmente representativas. Estas tarjetas están inspiradas en la diferenciación entre el backend y el frontend, utilizando estilos que reflejan conceptos como la oscuridad (backend) y la luz (frontend), inspirado por la narrativa de **El Señor de los Anillos**: Orcos (Backend) y Elfos (Frontend).
+Este proyecto es parte de la **5ta Tarea de CSS** y tiene como objetivo aplicar los conocimientos adquiridos sobre **CSS3** y la estructuración de elementos **HTML5** para crear un diseño estilizado, que separa dos tarjetas visualmente representativas. Estas tarjetas están inspiradas en la diferenciación entre el backend y el frontend, utilizando estilos que reflejan conceptos como la oscuridad (backend) y la luz (frontend), inspirado por la narrativa de **El Señor de los Anillos**: Orcos (Backend) y Elfos (Frontend).
 
 ## Funcionalidades
 
