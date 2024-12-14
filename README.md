@@ -12,17 +12,9 @@ Este proyecto es parte de la **5ta Tarea de CSS** y tiene como objetivo aplicar 
 
 ## Tecnologías Utilizadas
 
-- **HTML**: Para la estructura del contenido.
-- **CSS**: Para el diseño y los estilos, incluyendo gradientes, box-shadow, y hover effects.
 - **Google Fonts**: Para personalizar las tipografías de cada tarjeta.
 - **Git**: Control de versiones durante el desarrollo.
 - **GitHub**: Repositorio remoto para almacenar el proyecto.
-- 
-### HTML (`index.html`)
-El archivo `index.html` contiene dos secciones principales, cada una con una tarjeta representativa del Backend y el Frontend. Estas tarjetas están estilizadas usando clases específicas para cada tema.
-
-### CSS (`style.css`)
-El archivo `style.css` contiene todo el diseño de las tarjetas. Incluye el uso de gradientes, box-shadow, y estilos avanzados de botones para cada una de las tarjetas, separando las dos con una línea vertical utilizando flexbox y gradientes de fondo.
 
 ## Desafíos Encontrados
 
